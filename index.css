@@ -1,6 +1,12 @@
-.heading{
+.subheading{
     color: darkgreen;
 }
 .points{
-    color:lightgreen
+    color:chocolate;
+}
+.container{
+    background-color:lightgrey;
+}
+.heading{
+    text-align: center;
 }
