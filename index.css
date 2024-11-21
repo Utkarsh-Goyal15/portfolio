@@ -10,3 +10,31 @@
 .heading{
     text-align: center;
 }
+.information{
+    display:flex;
+}
+.details{
+    margin: 4%;
+    color:black;
+    font-size: 150%;
+}
+.p-container{
+    width: 20%;
+    margin-left: 40%;
+}
+.photo{
+    width: 80%;
+}
+
+@media(max-width:400px){
+    .information{
+        flex-direction: column-reverse;
+    }
+    .p-container{
+        width:40%;
+        margin-left: 30%;
+    }
+    .details{
+        font-size: 130%;;
+    }
+}
